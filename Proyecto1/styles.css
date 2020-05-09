@@ -1,0 +1,85 @@
+ 
+@font-face{
+	font-family: letra;
+	src:url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+}
+body{
+	height: 100vh;
+	background: #503b8a;
+	color:#503b8a;
+	flex-direction: column;
+	font-family: letra;
+}
+a{
+	font-weight:500;
+    text-decoration:none;
+    color:white;
+}
+
+a i{
+	color:blue;
+}
+
+#quote-box{
+	background:white;
+	padding: 5vh;
+	width: 60vw;
+	border-radius: 12px;
+}
+#text{
+	font-family: "Tangerine";
+	font-size: 6vw;
+}
+#contenedorButtons{
+	display: flex;
+	justify-content: space-between;
+}
+#buttonCompartir{
+	display:flex;
+	align-content: flex-start;
+}
+#author{
+	display: flex;
+	justify-content:flex-end;
+	margin-bottom: 8vh;
+    padding: 0 8vw 0 0;
+}
+.button{
+	background: #503b8a;
+	height:5vw;
+	width: 5vw;
+	margin-right: 2vh;
+}
+.centradoPerfecto{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+p{    margin: 0px;}
+button{
+	background: #503b8a;
+	padding: 2vw;
+	color:white;
+	border:none;
+	border-radius:10px;
+}
+/*#facebook{
+	background: url(facebook.svg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: none;
+}*/
+@media only screen and (max-width: 600px){
+	#quote-box{
+		width: 60vw;;
+	}
+	#text{
+    font-size: 8vw;
+	}
+	#contenedorButtons    {flex-direction: column;
+    align-items: center;
+	}
+	#buttonCompartir{
+		margin-bottom: 5px;
+	}
+}
